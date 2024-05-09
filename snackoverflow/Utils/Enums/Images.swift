@@ -6,7 +6,22 @@
 //
 
 import Foundation
+import SwiftUI
 
 enum Images: String{
     case juice = "img_juice"
+}
+
+struct ImageItems{
+    enum Authentication: String{
+        case login = "wolcano"
+    }
+}
+
+extension String{
+    
+    func images() -> Image{
+        return Image(self)
+    }
+    
 }
