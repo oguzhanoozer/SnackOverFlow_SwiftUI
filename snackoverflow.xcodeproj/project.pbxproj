@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		214D4B252BED407900452157 /* NormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B242BED407900452157 /* NormalButton.swift */; };
-		214D4B272BED408700452157 /* OnBoard in Resources */ = {isa = PBXBuildFile; fileRef = 214D4B262BED408700452157 /* OnBoard */; };
 		214D4B292BED40B500452157 /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B282BED40B500452157 /* FontSizes.swift */; };
 		214D4B2C2BED40C900452157 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 214D4B2A2BED40C900452157 /* Localizable.strings */; };
 		214D4B302BED411E00452157 /* ViewHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B2F2BED411E00452157 /* ViewHeight.swift */; };
+		214D4B342BED42C900452157 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B332BED42C900452157 /* OnBoardView.swift */; };
+		214D4B362BED42CD00452157 /* OnBoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B352BED42CD00452157 /* OnBoardModel.swift */; };
 		21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */; };
 		21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F82BECC62F00807EEE /* ContentView.swift */; };
 		21AE51FB2BECC63000807EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE51FA2BECC63000807EEE /* Assets.xcassets */; };
@@ -37,10 +38,11 @@
 
 /* Begin PBXFileReference section */
 		214D4B242BED407900452157 /* NormalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalButton.swift; sourceTree = "<group>"; };
-		214D4B262BED408700452157 /* OnBoard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OnBoard; sourceTree = "<group>"; };
 		214D4B282BED40B500452157 /* FontSizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
 		214D4B2B2BED40C900452157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		214D4B2F2BED411E00452157 /* ViewHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHeight.swift; sourceTree = "<group>"; };
+		214D4B332BED42C900452157 /* OnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		214D4B352BED42CD00452157 /* OnBoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardModel.swift; sourceTree = "<group>"; };
 		21AE51F32BECC62F00807EEE /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFLow.swift; sourceTree = "<group>"; };
 		21AE51F82BECC62F00807EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214D4B312BED42AD00452157 /* OnBoard */ = {
+			isa = PBXGroup;
+			children = (
+				214D4B322BED42C100452157 /* Model */,
+				214D4B332BED42C900452157 /* OnBoardView.swift */,
+			);
+			path = OnBoard;
+			sourceTree = "<group>";
+		};
+		214D4B322BED42C100452157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				214D4B352BED42CD00452157 /* OnBoardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		21AE51EA2BECC62F00807EEE = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +163,7 @@
 		21AE52072BECC7A100807EEE /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				214D4B262BED408700452157 /* OnBoard */,
+				214D4B312BED42AD00452157 /* OnBoard */,
 				21AE52082BECC7BA00807EEE /* Welcome */,
 			);
 			path = Authentication;
@@ -303,7 +322,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214D4B272BED408700452157 /* OnBoard in Resources */,
 				21AE51FE2BECC63000807EEE /* Preview Assets.xcassets in Resources */,
 				214D4B2C2BED40C900452157 /* Localizable.strings in Resources */,
 				21AE520E2BECC96300807EEE /* Images.xcassets in Resources */,
@@ -324,6 +342,7 @@
 				21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */,
 				21AE52172BECCED200807EEE /* Colors.swift in Sources */,
 				21AE522B2BECEBD200807EEE /* Custom+EdgeInsets.swift in Sources */,
+				214D4B342BED42C900452157 /* OnBoardView.swift in Sources */,
 				21AE52192BECD2E000807EEE /* Icons.swift in Sources */,
 				21AE52272BECEAC500807EEE /* GoogleButton.swift in Sources */,
 				214D4B292BED40B500452157 /* FontSizes.swift in Sources */,
@@ -333,6 +352,7 @@
 				21AE52132BECCBB400807EEE /* Images.swift in Sources */,
 				214D4B252BED407900452157 /* NormalButton.swift in Sources */,
 				21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */,
+				214D4B362BED42CD00452157 /* OnBoardModel.swift in Sources */,
 				21AE522D2BECEC3D00807EEE /* PagePadding.swift in Sources */,
 				214D4B302BED411E00452157 /* ViewHeight.swift in Sources */,
 				21AE520A2BECC7EE00807EEE /* WelcomeView.swift in Sources */,
