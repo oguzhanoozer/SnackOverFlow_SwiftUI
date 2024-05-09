@@ -1,5 +1,5 @@
 //
-//  ViewSize.swift
+//  ViewHeight.swift
 //  snackoverflow
 //
 //  Created by oguzhan on 9.05.2024.
@@ -7,8 +7,6 @@
 
 import Foundation
 
-struct DividerViewSize{
-    static let normal: Double = 2
+struct ViewHeight{
+    static let indicator: Double = 6
 }
-
-

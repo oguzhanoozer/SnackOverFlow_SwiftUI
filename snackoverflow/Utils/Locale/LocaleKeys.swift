@@ -15,6 +15,10 @@ struct LocaleKeys{
         case apple = "signInApple"
         case custom = "signUpWithEmail"
     }
+    
+    enum Buttons: String{
+        case getStarted = "Get Started"
+    }
 }
 
 

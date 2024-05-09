@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  snackoverflow
+
+  Created by oguzhan on 9.05.2024.
+  
+*/
+
+
+// Auth
+
+"signInFacebook"="Sign In With Facebook";
+"signInGoogle"="Sign In With Google";
+"signInApple"="Sign In With Apple";
+"signUpWithEmail"="Sign Up With Email";
+
+
+// Button
+"getStarted" = "Get Started";
