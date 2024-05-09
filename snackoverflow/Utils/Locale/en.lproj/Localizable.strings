@@ -17,3 +17,13 @@
 
 // Button
 "getStarted" = "Get Started";
+
+// Login
+"welcomeBack" = "Welcome Back";
+"createAccount" = "Create Account";
+"termsAndConditions" = "By Clicking \"Create Account\", I agree to Snackoverflow's [TOS](www.google.com) and [Privacy Policy](www.google.com)";
+
+// General Hint
+"emailHint" = "Write your email";
+"passwordHint" = "Write your password";
+

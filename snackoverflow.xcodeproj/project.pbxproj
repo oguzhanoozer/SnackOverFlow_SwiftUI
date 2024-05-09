@@ -13,6 +13,8 @@
 		214D4B302BED411E00452157 /* ViewHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B2F2BED411E00452157 /* ViewHeight.swift */; };
 		214D4B342BED42C900452157 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B332BED42C900452157 /* OnBoardView.swift */; };
 		214D4B362BED42CD00452157 /* OnBoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B352BED42CD00452157 /* OnBoardModel.swift */; };
+		214D4B392BED44BE00452157 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B382BED44BE00452157 /* LoginView.swift */; };
+		214D4B3C2BED4B3B00452157 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B3B2BED4B3B00452157 /* TextFieldModifier.swift */; };
 		21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */; };
 		21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F82BECC62F00807EEE /* ContentView.swift */; };
 		21AE51FB2BECC63000807EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE51FA2BECC63000807EEE /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		214D4B2F2BED411E00452157 /* ViewHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHeight.swift; sourceTree = "<group>"; };
 		214D4B332BED42C900452157 /* OnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
 		214D4B352BED42CD00452157 /* OnBoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardModel.swift; sourceTree = "<group>"; };
+		214D4B382BED44BE00452157 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		214D4B3B2BED4B3B00452157 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
 		21AE51F32BECC62F00807EEE /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFLow.swift; sourceTree = "<group>"; };
 		21AE51F82BECC62F00807EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		214D4B372BED44A000452157 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				214D4B382BED44BE00452157 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		214D4B3A2BED4B1000452157 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				214D4B3B2BED4B3B00452157 /* TextFieldModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 		21AE51EA2BECC62F00807EEE = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +156,7 @@
 		21AE52042BECC76700807EEE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				214D4B3A2BED4B1000452157 /* ViewModifiers */,
 				21AE52372BECFBE700807EEE /* Fonts */,
 				21AE52212BECE5F300807EEE /* Locale */,
 				21AE52142BECCE9600807EEE /* Extension */,
@@ -163,6 +184,7 @@
 		21AE52072BECC7A100807EEE /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				214D4B372BED44A000452157 /* Login */,
 				214D4B312BED42AD00452157 /* OnBoard */,
 				21AE52082BECC7BA00807EEE /* Welcome */,
 			);
@@ -341,6 +363,7 @@
 				21AE52252BECE6F300807EEE /* LocaleKeys.swift in Sources */,
 				21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */,
 				21AE52172BECCED200807EEE /* Colors.swift in Sources */,
+				214D4B392BED44BE00452157 /* LoginView.swift in Sources */,
 				21AE522B2BECEBD200807EEE /* Custom+EdgeInsets.swift in Sources */,
 				214D4B342BED42C900452157 /* OnBoardView.swift in Sources */,
 				21AE52192BECD2E000807EEE /* Icons.swift in Sources */,
@@ -354,6 +377,7 @@
 				21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */,
 				214D4B362BED42CD00452157 /* OnBoardModel.swift in Sources */,
 				21AE522D2BECEC3D00807EEE /* PagePadding.swift in Sources */,
+				214D4B3C2BED4B3B00452157 /* TextFieldModifier.swift in Sources */,
 				214D4B302BED411E00452157 /* ViewHeight.swift in Sources */,
 				21AE520A2BECC7EE00807EEE /* WelcomeView.swift in Sources */,
 				21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */,
