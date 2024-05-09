@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214D4B252BED407900452157 /* NormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B242BED407900452157 /* NormalButton.swift */; };
+		214D4B272BED408700452157 /* OnBoard in Resources */ = {isa = PBXBuildFile; fileRef = 214D4B262BED408700452157 /* OnBoard */; };
+		214D4B292BED40B500452157 /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B282BED40B500452157 /* FontSizes.swift */; };
+		214D4B2C2BED40C900452157 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 214D4B2A2BED40C900452157 /* Localizable.strings */; };
+		214D4B302BED411E00452157 /* ViewHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D4B2F2BED411E00452157 /* ViewHeight.swift */; };
 		21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */; };
 		21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F82BECC62F00807EEE /* ContentView.swift */; };
 		21AE51FB2BECC63000807EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE51FA2BECC63000807EEE /* Assets.xcassets */; };
@@ -19,7 +24,6 @@
 		21AE52192BECD2E000807EEE /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52182BECD2E000807EEE /* Icons.swift */; };
 		21AE521E2BECDA6700807EEE /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE521D2BECDA6700807EEE /* FacebookButton.swift */; };
 		21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE521F2BECDB9500807EEE /* EdgeInsets.swift */; };
-		21AE52232BECE61200807EEE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 21AE52222BECE61200807EEE /* Localizable.xcstrings */; };
 		21AE52252BECE6F300807EEE /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52242BECE6F300807EEE /* LocaleKeys.swift */; };
 		21AE52272BECEAC500807EEE /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52262BECEAC500807EEE /* GoogleButton.swift */; };
 		21AE522B2BECEBD200807EEE /* Custom+EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE522A2BECEBD200807EEE /* Custom+EdgeInsets.swift */; };
@@ -28,11 +32,15 @@
 		21AE52312BECF54500807EEE /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52302BECF54500807EEE /* AppleButton.swift */; };
 		21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52332BECFA4D00807EEE /* ViewSize.swift */; };
 		21AE52362BECFAC900807EEE /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52352BECFAC900807EEE /* EmailButton.swift */; };
-		21AE52392BECFBFA00807EEE /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52382BECFBFA00807EEE /* FontSizes.swift */; };
 		21AE523B2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE523A2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		214D4B242BED407900452157 /* NormalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalButton.swift; sourceTree = "<group>"; };
+		214D4B262BED408700452157 /* OnBoard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OnBoard; sourceTree = "<group>"; };
+		214D4B282BED40B500452157 /* FontSizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
+		214D4B2B2BED40C900452157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		214D4B2F2BED411E00452157 /* ViewHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHeight.swift; sourceTree = "<group>"; };
 		21AE51F32BECC62F00807EEE /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFLow.swift; sourceTree = "<group>"; };
 		21AE51F82BECC62F00807EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +54,6 @@
 		21AE52182BECD2E000807EEE /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		21AE521D2BECDA6700807EEE /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 		21AE521F2BECDB9500807EEE /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
-		21AE52222BECE61200807EEE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		21AE52242BECE6F300807EEE /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
 		21AE52262BECEAC500807EEE /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
 		21AE522A2BECEBD200807EEE /* Custom+EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom+EdgeInsets.swift"; sourceTree = "<group>"; };
@@ -55,7 +62,6 @@
 		21AE52302BECF54500807EEE /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
 		21AE52332BECFA4D00807EEE /* ViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSize.swift; sourceTree = "<group>"; };
 		21AE52352BECFAC900807EEE /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
-		21AE52382BECFBFA00807EEE /* FontSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
 		21AE523A2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +144,7 @@
 		21AE52072BECC7A100807EEE /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				214D4B262BED408700452157 /* OnBoard */,
 				21AE52082BECC7BA00807EEE /* Welcome */,
 			);
 			path = Authentication;
@@ -203,6 +210,7 @@
 		21AE521C2BECDA5E00807EEE /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				214D4B242BED407900452157 /* NormalButton.swift */,
 				21AE521D2BECDA6700807EEE /* FacebookButton.swift */,
 				21AE52262BECEAC500807EEE /* GoogleButton.swift */,
 				21AE52302BECF54500807EEE /* AppleButton.swift */,
@@ -214,7 +222,7 @@
 		21AE52212BECE5F300807EEE /* Locale */ = {
 			isa = PBXGroup;
 			children = (
-				21AE52222BECE61200807EEE /* Localizable.xcstrings */,
+				214D4B2A2BED40C900452157 /* Localizable.strings */,
 				21AE52242BECE6F300807EEE /* LocaleKeys.swift */,
 			);
 			path = Locale;
@@ -223,6 +231,7 @@
 		21AE52322BECFA3C00807EEE /* Size */ = {
 			isa = PBXGroup;
 			children = (
+				214D4B2F2BED411E00452157 /* ViewHeight.swift */,
 				21AE52332BECFA4D00807EEE /* ViewSize.swift */,
 			);
 			path = Size;
@@ -231,7 +240,7 @@
 		21AE52372BECFBE700807EEE /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				21AE52382BECFBFA00807EEE /* FontSizes.swift */,
+				214D4B282BED40B500452157 /* FontSizes.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -294,8 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214D4B272BED408700452157 /* OnBoard in Resources */,
 				21AE51FE2BECC63000807EEE /* Preview Assets.xcassets in Resources */,
-				21AE52232BECE61200807EEE /* Localizable.xcstrings in Resources */,
+				214D4B2C2BED40C900452157 /* Localizable.strings in Resources */,
 				21AE520E2BECC96300807EEE /* Images.xcassets in Resources */,
 				21AE51FB2BECC63000807EEE /* Assets.xcassets in Resources */,
 				21AE520C2BECC93500807EEE /* Colors.xcassets in Resources */,
@@ -316,13 +326,15 @@
 				21AE522B2BECEBD200807EEE /* Custom+EdgeInsets.swift in Sources */,
 				21AE52192BECD2E000807EEE /* Icons.swift in Sources */,
 				21AE52272BECEAC500807EEE /* GoogleButton.swift in Sources */,
+				214D4B292BED40B500452157 /* FontSizes.swift in Sources */,
 				21AE52312BECF54500807EEE /* AppleButton.swift in Sources */,
 				21AE521E2BECDA6700807EEE /* FacebookButton.swift in Sources */,
 				21AE522F2BECEDE200807EEE /* Radius.swift in Sources */,
 				21AE52132BECCBB400807EEE /* Images.swift in Sources */,
+				214D4B252BED407900452157 /* NormalButton.swift in Sources */,
 				21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */,
-				21AE52392BECFBFA00807EEE /* FontSizes.swift in Sources */,
 				21AE522D2BECEC3D00807EEE /* PagePadding.swift in Sources */,
+				214D4B302BED411E00452157 /* ViewHeight.swift in Sources */,
 				21AE520A2BECC7EE00807EEE /* WelcomeView.swift in Sources */,
 				21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */,
 				21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */,
@@ -331,6 +343,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		214D4B2A2BED40C900452157 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214D4B2B2BED40C900452157 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		21AE51FF2BECC63000807EEE /* Debug */ = {
