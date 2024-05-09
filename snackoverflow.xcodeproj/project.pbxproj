@@ -19,6 +19,17 @@
 		21AE52192BECD2E000807EEE /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52182BECD2E000807EEE /* Icons.swift */; };
 		21AE521E2BECDA6700807EEE /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE521D2BECDA6700807EEE /* FacebookButton.swift */; };
 		21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE521F2BECDB9500807EEE /* EdgeInsets.swift */; };
+		21AE52232BECE61200807EEE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 21AE52222BECE61200807EEE /* Localizable.xcstrings */; };
+		21AE52252BECE6F300807EEE /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52242BECE6F300807EEE /* LocaleKeys.swift */; };
+		21AE52272BECEAC500807EEE /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52262BECEAC500807EEE /* GoogleButton.swift */; };
+		21AE522B2BECEBD200807EEE /* Custom+EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE522A2BECEBD200807EEE /* Custom+EdgeInsets.swift */; };
+		21AE522D2BECEC3D00807EEE /* PagePadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE522C2BECEC3D00807EEE /* PagePadding.swift */; };
+		21AE522F2BECEDE200807EEE /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE522E2BECEDE200807EEE /* Radius.swift */; };
+		21AE52312BECF54500807EEE /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52302BECF54500807EEE /* AppleButton.swift */; };
+		21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52332BECFA4D00807EEE /* ViewSize.swift */; };
+		21AE52362BECFAC900807EEE /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52352BECFAC900807EEE /* EmailButton.swift */; };
+		21AE52392BECFBFA00807EEE /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52382BECFBFA00807EEE /* FontSizes.swift */; };
+		21AE523B2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE523A2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +46,17 @@
 		21AE52182BECD2E000807EEE /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		21AE521D2BECDA6700807EEE /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 		21AE521F2BECDB9500807EEE /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		21AE52222BECE61200807EEE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		21AE52242BECE6F300807EEE /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
+		21AE52262BECEAC500807EEE /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
+		21AE522A2BECEBD200807EEE /* Custom+EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom+EdgeInsets.swift"; sourceTree = "<group>"; };
+		21AE522C2BECEC3D00807EEE /* PagePadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePadding.swift; sourceTree = "<group>"; };
+		21AE522E2BECEDE200807EEE /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		21AE52302BECF54500807EEE /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
+		21AE52332BECFA4D00807EEE /* ViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSize.swift; sourceTree = "<group>"; };
+		21AE52352BECFAC900807EEE /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
+		21AE52382BECFBFA00807EEE /* FontSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
+		21AE523A2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +111,8 @@
 		21AE52042BECC76700807EEE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				21AE52372BECFBE700807EEE /* Fonts */,
+				21AE52212BECE5F300807EEE /* Locale */,
 				21AE52142BECCE9600807EEE /* Extension */,
 				21AE52102BECCBA400807EEE /* Enums */,
 			);
@@ -140,8 +164,11 @@
 		21AE52102BECCBA400807EEE /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				21AE52322BECFA3C00807EEE /* Size */,
 				21AE52122BECCBB400807EEE /* Images.swift */,
 				21AE52182BECD2E000807EEE /* Icons.swift */,
+				21AE522C2BECEC3D00807EEE /* PagePadding.swift */,
+				21AE522E2BECEDE200807EEE /* Radius.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -151,6 +178,8 @@
 			children = (
 				21AE52162BECCED200807EEE /* Colors.swift */,
 				21AE521F2BECDB9500807EEE /* EdgeInsets.swift */,
+				21AE522A2BECEBD200807EEE /* Custom+EdgeInsets.swift */,
+				21AE523A2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -175,8 +204,36 @@
 			isa = PBXGroup;
 			children = (
 				21AE521D2BECDA6700807EEE /* FacebookButton.swift */,
+				21AE52262BECEAC500807EEE /* GoogleButton.swift */,
+				21AE52302BECF54500807EEE /* AppleButton.swift */,
+				21AE52352BECFAC900807EEE /* EmailButton.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		21AE52212BECE5F300807EEE /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52222BECE61200807EEE /* Localizable.xcstrings */,
+				21AE52242BECE6F300807EEE /* LocaleKeys.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		21AE52322BECFA3C00807EEE /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52332BECFA4D00807EEE /* ViewSize.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
+		21AE52372BECFBE700807EEE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52382BECFBFA00807EEE /* FontSizes.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AE51FE2BECC63000807EEE /* Preview Assets.xcassets in Resources */,
+				21AE52232BECE61200807EEE /* Localizable.xcstrings in Resources */,
 				21AE520E2BECC96300807EEE /* Images.xcassets in Resources */,
 				21AE51FB2BECC63000807EEE /* Assets.xcassets in Resources */,
 				21AE520C2BECC93500807EEE /* Colors.xcassets in Resources */,
@@ -251,14 +309,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21AE52362BECFAC900807EEE /* EmailButton.swift in Sources */,
+				21AE52252BECE6F300807EEE /* LocaleKeys.swift in Sources */,
 				21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */,
 				21AE52172BECCED200807EEE /* Colors.swift in Sources */,
+				21AE522B2BECEBD200807EEE /* Custom+EdgeInsets.swift in Sources */,
 				21AE52192BECD2E000807EEE /* Icons.swift in Sources */,
+				21AE52272BECEAC500807EEE /* GoogleButton.swift in Sources */,
+				21AE52312BECF54500807EEE /* AppleButton.swift in Sources */,
 				21AE521E2BECDA6700807EEE /* FacebookButton.swift in Sources */,
+				21AE522F2BECEDE200807EEE /* Radius.swift in Sources */,
 				21AE52132BECCBB400807EEE /* Images.swift in Sources */,
+				21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */,
+				21AE52392BECFBFA00807EEE /* FontSizes.swift in Sources */,
+				21AE522D2BECEC3D00807EEE /* PagePadding.swift in Sources */,
 				21AE520A2BECC7EE00807EEE /* WelcomeView.swift in Sources */,
 				21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */,
 				21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */,
+				21AE523B2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
