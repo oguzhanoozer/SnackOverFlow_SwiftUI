@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21AE51F72BECC62F00807EEE /* snackoverflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F62BECC62F00807EEE /* snackoverflowApp.swift */; };
+		21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */; };
 		21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F82BECC62F00807EEE /* ContentView.swift */; };
 		21AE51FB2BECC63000807EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE51FA2BECC63000807EEE /* Assets.xcassets */; };
 		21AE51FE2BECC63000807EEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE51FD2BECC63000807EEE /* Preview Assets.xcassets */; };
+		21AE520A2BECC7EE00807EEE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52092BECC7EE00807EEE /* WelcomeView.swift */; };
+		21AE520C2BECC93500807EEE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE520B2BECC93500807EEE /* Colors.xcassets */; };
+		21AE520E2BECC96300807EEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE520D2BECC96300807EEE /* Images.xcassets */; };
+		21AE52132BECCBB400807EEE /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52122BECCBB400807EEE /* Images.swift */; };
+		21AE52172BECCED200807EEE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52162BECCED200807EEE /* Colors.swift */; };
+		21AE52192BECD2E000807EEE /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52182BECD2E000807EEE /* Icons.swift */; };
+		21AE521E2BECDA6700807EEE /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE521D2BECDA6700807EEE /* FacebookButton.swift */; };
+		21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE521F2BECDB9500807EEE /* EdgeInsets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21AE51F32BECC62F00807EEE /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AE51F62BECC62F00807EEE /* snackoverflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snackoverflowApp.swift; sourceTree = "<group>"; };
+		21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFLow.swift; sourceTree = "<group>"; };
 		21AE51F82BECC62F00807EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21AE51FA2BECC63000807EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21AE51FD2BECC63000807EEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21AE52092BECC7EE00807EEE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		21AE520B2BECC93500807EEE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		21AE520D2BECC96300807EEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21AE52122BECCBB400807EEE /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		21AE52162BECCED200807EEE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		21AE52182BECD2E000807EEE /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		21AE521D2BECDA6700807EEE /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
+		21AE521F2BECDB9500807EEE /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +67,12 @@
 		21AE51F52BECC62F00807EEE /* snackoverflow */ = {
 			isa = PBXGroup;
 			children = (
-				21AE51F62BECC62F00807EEE /* snackoverflowApp.swift */,
+				21AE521A2BECDA5200807EEE /* Product */,
+				21AE52062BECC77700807EEE /* Feature */,
+				21AE52052BECC76D00807EEE /* Resources */,
+				21AE52042BECC76700807EEE /* Utils */,
+				21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */,
 				21AE51F82BECC62F00807EEE /* ContentView.swift */,
-				21AE51FA2BECC63000807EEE /* Assets.xcassets */,
 				21AE51FC2BECC63000807EEE /* Preview Content */,
 			);
 			path = snackoverflow;
@@ -65,6 +84,99 @@
 				21AE51FD2BECC63000807EEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21AE52042BECC76700807EEE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52142BECCE9600807EEE /* Extension */,
+				21AE52102BECCBA400807EEE /* Enums */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		21AE52052BECC76D00807EEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21AE520F2BECC98F00807EEE /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21AE52062BECC77700807EEE /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52072BECC7A100807EEE /* Authentication */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		21AE52072BECC7A100807EEE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52082BECC7BA00807EEE /* Welcome */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		21AE52082BECC7BA00807EEE /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52092BECC7EE00807EEE /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		21AE520F2BECC98F00807EEE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				21AE51FA2BECC63000807EEE /* Assets.xcassets */,
+				21AE520B2BECC93500807EEE /* Colors.xcassets */,
+				21AE520D2BECC96300807EEE /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		21AE52102BECCBA400807EEE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52122BECCBB400807EEE /* Images.swift */,
+				21AE52182BECD2E000807EEE /* Icons.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		21AE52142BECCE9600807EEE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				21AE52162BECCED200807EEE /* Colors.swift */,
+				21AE521F2BECDB9500807EEE /* EdgeInsets.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		21AE521A2BECDA5200807EEE /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				21AE521B2BECDA5800807EEE /* Widget */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		21AE521B2BECDA5800807EEE /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				21AE521C2BECDA5E00807EEE /* Button */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		21AE521C2BECDA5E00807EEE /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				21AE521D2BECDA6700807EEE /* FacebookButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AE51FE2BECC63000807EEE /* Preview Assets.xcassets in Resources */,
+				21AE520E2BECC96300807EEE /* Images.xcassets in Resources */,
 				21AE51FB2BECC63000807EEE /* Assets.xcassets in Resources */,
+				21AE520C2BECC93500807EEE /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +252,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */,
-				21AE51F72BECC62F00807EEE /* snackoverflowApp.swift in Sources */,
+				21AE52172BECCED200807EEE /* Colors.swift in Sources */,
+				21AE52192BECD2E000807EEE /* Icons.swift in Sources */,
+				21AE521E2BECDA6700807EEE /* FacebookButton.swift in Sources */,
+				21AE52132BECCBB400807EEE /* Images.swift in Sources */,
+				21AE520A2BECC7EE00807EEE /* WelcomeView.swift in Sources */,
+				21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */,
+				21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
