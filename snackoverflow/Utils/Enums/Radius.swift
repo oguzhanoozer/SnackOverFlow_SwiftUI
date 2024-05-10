@@ -7,8 +7,6 @@
 
 import Foundation
 
-struct RadiusItems{
-    
+enum RadiusItems {
     static let radius: Double = 8
-    
 }

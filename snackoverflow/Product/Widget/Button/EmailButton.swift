@@ -8,30 +8,27 @@
 import SwiftUI
 
 struct EmailButtonView: View {
-    
     var onTap: () -> Void
-    
+
     var body: some View {
         Button(action: onTap,
                label: {
-                HStack {
-                    Spacer()
-                    Text(LocaleKeys.Auth.custom.rawValue.locale())
-                    Spacer()
-                }
-                .tint(.peach)
-                .font(.system(size: FontSizes.headline,weight: .semibold))
-                .padding(.all,PagePadding.All.normal.rawValue)
-            })
-            .buttonBorderShape(.roundedRectangle)
-            .controlSize(.large)
-            .background(.white)
-            .cornerRadius(RadiusItems.radius)
+                   HStack {
+                       Spacer()
+                       Text(LocaleKeys.Auth.custom.rawValue.locale())
+                       Spacer()
+                   }
+                   .tint(.peach)
+                   .font(.system(size: FontSizes.headline, weight: .semibold))
+                   .padding(.all, PagePadding.All.normal.rawValue)
+               })
+               .buttonBorderShape(.roundedRectangle)
+               .controlSize(.large)
+               .background(.white)
+               .cornerRadius(RadiusItems.radius)
     }
 }
 
 #Preview {
     EmailButtonView {}
 }
-
-

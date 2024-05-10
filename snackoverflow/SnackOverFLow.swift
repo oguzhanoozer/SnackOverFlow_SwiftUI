@@ -1,5 +1,5 @@
 //
-//  snackoverflowApp.swift
+//  SnackOverFLow.swift
 //  snackoverflow
 //
 //  Created by oguzhan on 9.05.2024.

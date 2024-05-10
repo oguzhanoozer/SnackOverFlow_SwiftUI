@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct FontSizes{
+enum FontSizes {
     static let headline: Double = 16
     static let largeTitle: Double = 34
     static let title1: Double = 28
