@@ -73,7 +73,6 @@ private struct SliderCard: View {
 
 private struct IndicatorRectangle: View {
     var width: Double
-
     var body: some View {
         Rectangle().fill(.clooney)
             .cornerRadius(RadiusItems.radius)

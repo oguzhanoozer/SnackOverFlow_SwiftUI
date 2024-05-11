@@ -22,6 +22,9 @@
 		2190FE822BEE996900CA2151 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2190FE812BEE996900CA2151 /* Alamofire */; };
 		2190FE842BEE996900CA2151 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2190FE832BEE996900CA2151 /* AlamofireDynamic */; };
 		2190FE8C2BEEA5F300CA2151 /* snackoverflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2190FE8B2BEEA5F300CA2151 /* snackoverflowTests.swift */; };
+		2190FE942BEEAFA400CA2151 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2190FE932BEEAFA400CA2151 /* LoginViewModel.swift */; };
+		2190FE962BEEB4BE00CA2151 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2190FE952BEEB4BE00CA2151 /* LoginRequestModel.swift */; };
+		2190FE992BEEB52500CA2151 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2190FE982BEEB52500CA2151 /* LoginResponse.swift */; };
 		21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */; };
 		21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE51F82BECC62F00807EEE /* ContentView.swift */; };
 		21AE51FB2BECC63000807EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE51FA2BECC63000807EEE /* Assets.xcassets */; };
@@ -70,6 +73,9 @@
 		2190FE7E2BEE944900CA2151 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		2190FE892BEEA5F300CA2151 /* snackoverflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snackoverflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2190FE8B2BEEA5F300CA2151 /* snackoverflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snackoverflowTests.swift; sourceTree = "<group>"; };
+		2190FE932BEEAFA400CA2151 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2190FE952BEEB4BE00CA2151 /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
+		2190FE982BEEB52500CA2151 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		21AE51F32BECC62F00807EEE /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AE51F62BECC62F00807EEE /* SnackOverFLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFLow.swift; sourceTree = "<group>"; };
 		21AE51F82BECC62F00807EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,7 +157,9 @@
 		214D4B372BED44A000452157 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				2190FE972BEEB51A00CA2151 /* Model */,
 				214D4B382BED44BE00452157 /* LoginView.swift */,
+				2190FE932BEEAFA400CA2151 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -186,6 +194,15 @@
 				2190FE8B2BEEA5F300CA2151 /* snackoverflowTests.swift */,
 			);
 			path = snackoverflowTests;
+			sourceTree = "<group>";
+		};
+		2190FE972BEEB51A00CA2151 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2190FE952BEEB4BE00CA2151 /* LoginRequestModel.swift */,
+				2190FE982BEEB52500CA2151 /* LoginResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		21AE51EA2BECC62F00807EEE = {
@@ -503,9 +520,12 @@
 				214D4B422BED5DBC00452157 /* UserCacheItems.swift in Sources */,
 				21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */,
 				214D4B362BED42CD00452157 /* OnBoardModel.swift in Sources */,
+				2190FE962BEEB4BE00CA2151 /* LoginRequestModel.swift in Sources */,
+				2190FE942BEEAFA400CA2151 /* LoginViewModel.swift in Sources */,
 				21AE522D2BECEC3D00807EEE /* PagePadding.swift in Sources */,
 				214D4B3C2BED4B3B00452157 /* TextFieldModifier.swift in Sources */,
 				214D4B302BED411E00452157 /* ViewHeight.swift in Sources */,
+				2190FE992BEEB52500CA2151 /* LoginResponse.swift in Sources */,
 				21AE520A2BECC7EE00807EEE /* WelcomeView.swift in Sources */,
 				21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */,
 				21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */,
