@@ -8,36 +8,42 @@
 import Foundation
 import SwiftUI
 
-struct LocaleKeys{
-    enum Auth: String{
+enum LocaleKeys {
+    enum Auth: String {
         case facebook = "signInFacebook"
         case google = "signInGoogle"
         case apple = "signInApple"
         case custom = "signUpWithEmail"
     }
-    
-    enum Buttons: String{
-        case getStarted = "Get Started"
+
+    enum Buttons: String {
+        case getStarted
+    }
+
+    enum General: String {
+        case emailHint
+        case passwordHint
+    }
+
+    enum Login: String {
+        case welcomeBack
+        case createAccount
+        case terms = "termsAndConditions"
     }
     
-    enum General: String{
-        case emailHint = "emailHint"
-        case passwordHint = "passwordHint"
+    enum TabView: String{
+        case home = "tabHome"
+        case market = "tabMarket"
+        case create = "tabCreate"
+        case wishlist = "tabWishlist"
+        case account = "tabAccount"
     }
-    
-    enum Login: String{
-        case welcomeBack = "welcomeBack"
-        case createAccount = "createAccount"
-        case termsAndConditions = "termsAndConditions"
-    }
-    
 }
 
-
-extension String{
+extension String {
     /// It localize any strings from Localizable.string
     /// - Returns: Localized value
-    func locale() -> LocalizedStringKey{
+    func locale() -> LocalizedStringKey {
         return LocalizedStringKey(self)
     }
 }

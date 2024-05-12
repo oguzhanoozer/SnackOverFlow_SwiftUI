@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-extension Color {
-    public static var deepSkyBlueColor: Color { Color("deepSkyBlue") }
-    public static var peachColor: Color { Color("peach") }
-    public static var clooneyColor: Color { Color("clooney") }
-    public static var carlColor: Color { Color("carl") }
+public extension Color {
+    static var deepSkyBlueColor: Color { Color("deepSkyBlue") }
+    static var peachColor: Color { Color("peach") }
+    static var clooneyColor: Color { Color("clooney") }
+    static var carlColor: Color { Color("carl") }
 }

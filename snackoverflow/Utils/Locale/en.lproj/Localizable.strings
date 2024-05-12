@@ -27,3 +27,12 @@
 "emailHint" = "Write your email";
 "passwordHint" = "Write your password";
 
+// Tab
+"tabHome" = "Home";
+"tabMarket" = "Market";
+"tabCreate" = "Create";
+"tabWishList" = "Wishlist";
+"tabAccount" = "Account";
+
+
+
