@@ -46,6 +46,10 @@
 		21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52332BECFA4D00807EEE /* ViewSize.swift */; };
 		21AE52362BECFAC900807EEE /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE52352BECFAC900807EEE /* EmailButton.swift */; };
 		21AE523B2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE523A2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift */; };
+		21B3928D2BF1152A00241361 /* ViewStatusHiddenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B3928C2BF1152A00241361 /* ViewStatusHiddenModifier.swift */; };
+		21B392932BF154FE00241361 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B392922BF154FE00241361 /* MainTabView.swift */; };
+		21B392962BF15CB900241361 /* MainTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B392952BF15CB900241361 /* MainTabModel.swift */; };
+		21B392992BF15DF100241361 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B392982BF15DF100241361 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +102,10 @@
 		21AE52332BECFA4D00807EEE /* ViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSize.swift; sourceTree = "<group>"; };
 		21AE52352BECFAC900807EEE /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
 		21AE523A2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
+		21B3928C2BF1152A00241361 /* ViewStatusHiddenModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStatusHiddenModifier.swift; sourceTree = "<group>"; };
+		21B392922BF154FE00241361 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		21B392952BF15CB900241361 /* MainTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabModel.swift; sourceTree = "<group>"; };
+		21B392982BF15DF100241361 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				214D4B3B2BED4B3B00452157 /* TextFieldModifier.swift */,
+				21B3928C2BF1152A00241361 /* ViewStatusHiddenModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -279,6 +288,7 @@
 		21AE52072BECC7A100807EEE /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				21B3928E2BF1542900241361 /* MainHome */,
 				214D4B372BED44A000452157 /* Login */,
 				214D4B312BED42AD00452157 /* OnBoard */,
 				21AE52082BECC7BA00807EEE /* Welcome */,
@@ -379,6 +389,40 @@
 				214D4B282BED40B500452157 /* FontSizes.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		21B3928E2BF1542900241361 /* MainHome */ = {
+			isa = PBXGroup;
+			children = (
+				21B392972BF15DC900241361 /* Home */,
+				21B3928F2BF1542E00241361 /* Main */,
+			);
+			path = MainHome;
+			sourceTree = "<group>";
+		};
+		21B3928F2BF1542E00241361 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				21B392942BF15CA700241361 /* Model */,
+				21B392922BF154FE00241361 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		21B392942BF15CA700241361 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21B392952BF15CB900241361 /* MainTabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21B392972BF15DC900241361 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				21B392982BF15DF100241361 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,6 +548,7 @@
 				21AE52252BECE6F300807EEE /* LocaleKeys.swift in Sources */,
 				21AE51F92BECC62F00807EEE /* ContentView.swift in Sources */,
 				21AE52172BECCED200807EEE /* Colors.swift in Sources */,
+				21B392932BF154FE00241361 /* MainTabView.swift in Sources */,
 				214D4B392BED44BE00452157 /* LoginView.swift in Sources */,
 				21AE522B2BECEBD200807EEE /* Custom+EdgeInsets.swift in Sources */,
 				214D4B342BED42C900452157 /* OnBoardView.swift in Sources */,
@@ -518,15 +563,18 @@
 				214D4B3F2BED5B8D00452157 /* OnBoardViewModel.swift in Sources */,
 				214D4B252BED407900452157 /* NormalButton.swift in Sources */,
 				214D4B422BED5DBC00452157 /* UserCacheItems.swift in Sources */,
+				21B3928D2BF1152A00241361 /* ViewStatusHiddenModifier.swift in Sources */,
 				21AE52342BECFA4D00807EEE /* ViewSize.swift in Sources */,
 				214D4B362BED42CD00452157 /* OnBoardModel.swift in Sources */,
 				2190FE962BEEB4BE00CA2151 /* LoginRequestModel.swift in Sources */,
+				21B392992BF15DF100241361 /* HomeView.swift in Sources */,
 				2190FE942BEEAFA400CA2151 /* LoginViewModel.swift in Sources */,
 				21AE522D2BECEC3D00807EEE /* PagePadding.swift in Sources */,
 				214D4B3C2BED4B3B00452157 /* TextFieldModifier.swift in Sources */,
 				214D4B302BED411E00452157 /* ViewHeight.swift in Sources */,
 				2190FE992BEEB52500CA2151 /* LoginResponse.swift in Sources */,
 				21AE520A2BECC7EE00807EEE /* WelcomeView.swift in Sources */,
+				21B392962BF15CB900241361 /* MainTabModel.swift in Sources */,
 				21AE52202BECDB9500807EEE /* EdgeInsets.swift in Sources */,
 				21AE51F72BECC62F00807EEE /* SnackOverFLow.swift in Sources */,
 				21AE523B2BECFE9800807EEE /* DynamicSize+GeometryProxy.swift in Sources */,

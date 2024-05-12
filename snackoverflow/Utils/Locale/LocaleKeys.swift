@@ -17,7 +17,7 @@ enum LocaleKeys {
     }
 
     enum Buttons: String {
-        case getStarted = "Get Started"
+        case getStarted
     }
 
     enum General: String {
@@ -28,7 +28,15 @@ enum LocaleKeys {
     enum Login: String {
         case welcomeBack
         case createAccount
-        case termsAndConditions
+        case terms = "termsAndConditions"
+    }
+    
+    enum TabView: String{
+        case home = "tabHome"
+        case market = "tabMarket"
+        case create = "tabCreate"
+        case wishlist = "tabWishlist"
+        case account = "tabAccount"
     }
 }
 

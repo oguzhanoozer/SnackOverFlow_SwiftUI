@@ -22,4 +22,13 @@ enum IconItems {
         case mail = "ic_mail"
         case lock = "ic_lock"
     }
+    
+    enum TabView: String {
+        case home = "ic_home"
+        case edit = "ic_edit"
+        case favorite = "ic_favorite"
+        case market = "ic_market"
+        case person = "ic_person"
+    }
+    
 }
